@@ -1,0 +1,179 @@
+  /*css reset*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* navition bar*/
+#nav{
+    position: relative;
+}
+#nav {
+    display: flex;
+    align-items: center;    
+}
+  /* logo*/
+#logo {
+    margin: 10px 20px;
+ 
+}
+#logo img {
+    height: 60px;
+    margin: 4px 5px;
+}
+#nav ul{
+    display: flex;
+    width: 65%;
+}
+#name{
+    margin: 3px 1px;
+    padding: 3px;
+    border-radius: 15px;
+    height: 20px;
+    border: 2px solid rgb(2, 0, 0);
+}
+#search{
+    padding: 3px;
+    border: 2PX SOLID black;
+    border-radius: 10px;
+
+}
+#nav::before{
+    content:"";
+background: url('image/oip.jpg');
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 373%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+#nav ul li{
+  list-style: none;
+  font-size: 1.2rem;
+}
+#nav ul li a {
+ color: white;
+ display: block;
+ padding: 2px 20px;
+ border-radius: 20px;
+ text-decoration: none;
+}
+#nav ul li a:hover {
+    color: black;
+    background-color: white;
+    display: block;
+    padding: 2px 20px;
+    border-radius: 20px;
+     }
+     .pera{
+         color: rgba(237, 242, 243, 0.604);
+     }
+     /* second metter*/
+     .sorav {
+         display: flex;
+        color:black;
+        flex-direction: column;
+        text-align: center;
+        height: 250px;
+        justify-content: center;
+        padding: 0px;
+    }
+    .sorav::before {
+        content:"";
+        background-image: url('image/aa.jpg');  
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 50%;
+       width: 100%;
+       z-index: -1;
+       opacity:0.89;
+    }
+#h {
+    color: antiquewhite;
+  font-size: 2.8rem;
+ font-family: system-ui;
+ margin-bottom: 20px;
+}
+
+#sec {
+    padding: 0px 20px;
+}
+
+#btn {
+    margin: 20px;
+    padding: 5px;
+    border-radius: 40px;
+    font-size: 1.2rem;
+    background-color: salmon;
+    border: 2px solid white;
+    cursor: pointer;
+}
+/*servies*/
+#our{
+    font-size: 2.8rem;
+    text-align: center;
+    justify-content: center;
+}
+#tea{
+    margin: 34px;
+   display: flex;
+
+}
+#tea .to{
+    border: 2px solid brown;
+    border-radius: 40px;
+    margin: 10px 25px;
+    padding: 10px 10px;
+    background-color:rgb(188, 237, 194);
+}
+#tea .to img{
+    height: 90px;
+    margin: auto;
+    display: block;
+
+}
+#center{
+    text-align: center;
+    
+}
+p{
+    text-align: center;
+}
+/* logo*/
+.logo{
+    height: 344px;
+}
+.logo::before{
+    content: "";
+    position: absolute;
+    background:url('img/contact-us-2993000_1920.jpg');
+    left: 0px;
+    height: 50%;
+    width: 100%;
+    z-index: -1;
+    
+}
+
+#papa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    
+}
+#papa img{
+    height: 110px; 
+    width: 110px;
+}
+.center{
+    justify-content: center;
+    text-align: center;
+    font-size: 3.2rem;
+} 
+.items{
+padding: 34px;
+}
+   

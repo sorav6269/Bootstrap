@@ -1,0 +1,131 @@
+
+ body {
+    margin: 0px; 
+    padding: 0px;
+    background: url('image/tea-background-.jpg') no-repeat center center/cover;
+
+}
+
+.left {
+    position:absolute;
+    left: 34px;
+   
+    display:block;
+ 
+    margin: 5px auto;
+
+}
+
+.left img {
+    
+    padding: 10px;
+    margin: 5px auto;
+    height: 60px;
+    width: 60px;
+}
+
+.div {
+    text-align: center;
+    color: white;
+}
+
+.mid {
+    display: block;
+    width: 33%;
+    margin: 10px auto;
+    border: 2px solid peru;
+    border-radius: 40px;
+
+
+}
+
+.mid li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.mid li a {
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: white;
+    border-radius: 40px;
+
+}
+
+.mid li a:hover {
+    color: black;
+    background-color: white;
+}
+.button {
+    margin: 0px 15px;
+    padding: 5px;
+    border-radius: 12px;
+    background-color:rgb(10, 10, 8);
+    color: white;
+
+}
+.button:hover {
+    margin: 0px 15px;
+    padding: 5px;
+    border-radius: 12px;
+    background-color:rgb(160, 53, 67);
+    color: white;
+}
+
+.con {
+    margin: 70px auto ;
+    padding: 8px 20px;
+    width: 33%;
+    color: white;
+    border: 2px solid peru;
+    border-radius: 28px;
+}
+
+.con h1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.from {
+
+    text-align: center;
+    border-radius: 20px;
+    display: block;
+    padding: 5px;
+    margin: 3px auto;
+    width: 200px;
+    border: 2px solid whitesmoke;
+    
+}
+
+   
+h2{display: block;
+   width: 25%;
+    margin: 40px auto;
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    color: white;
+    
+    
+}
+#btn{
+    border: 2px solid rgb(199, 186, 68);
+    border-radius: 10px;
+font-size: 15px;
+}
+#btn:hover{
+    border: 2px solid grey;
+background-color: brown;
+    border-radius: 10px;
+font-size: 15px;
+color: hotpink;
+}
+#btn:visited{
+    border: 2px solid grey;
+background-color: yellow;
+    border-radius: 10px;
+font-size: 15px;
+color: hotpink;
+}

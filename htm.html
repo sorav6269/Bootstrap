@@ -1,0 +1,231 @@
+
+.<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    
+    .sara{
+        background: url("image/MIKY.jpg") no-repeat center center/cover;
+    margin: -16px 0px;
+    padding: 0px 0px;
+    }
+
+.nav{
+background-color: #1a1818;;
+    border: 5px solid #7a6060;
+    border-radius: 40px;
+}
+.nav ul{
+    overflow: auto;
+    margin: 14px 1px;
+    padding: 5px 36px;
+}
+.nav li a{
+    text-decoration: none;
+padding: 5px 10px;
+margin: 2px 10px;
+color: white;
+font-size: 20px;
+
+}
+
+.nav li{
+    float: left;
+    list-style: none;
+padding: 2px 2px; 
+
+}
+
+.nav li a:hover{
+   
+padding: 2px 2px;
+border: 2px solid violet;
+background-color: white;
+color: black;
+border-radius: 30px;
+}
+.search{
+    float: right;
+    background-color: aquamarine;
+   padding: 10px;
+}
+.nav input{
+    margin: 2px 40px;
+    padding: 5px 8px;
+border-radius: 30px;
+}
+
+#but{
+    margin: 2px 3px;
+    padding: 7px 12px;
+border-radius: 10px;
+}
+#but:hover{
+    background-color: purple;
+    color: white;
+
+}
+#butt{
+   display: block;
+    margin: -20px auto;
+padding: 10px;
+background-color: #7a6060;
+color: white;
+border-radius: 20px;
+    border: 2px solid black;
+    font-weight: bolder ;
+    Font-size: 15px;
+}
+#butt:hover{
+    margin: -20px 100px;
+padding: 10px;
+background-color: #2a6060;
+color: white;
+border-radius: 20px;
+font-weight: bolder;
+
+    border: 2px solid black;
+
+}
+
+.continer{
+    margin: 20px 500px;
+    font-size: 20px;
+    color: rgb(27, 35, 43);
+ 
+}
+.manu{
+    margin: 20px 5px;
+    padding:50px 50px;
+
+}
+#logo{
+    margin: 10px 50px;
+    height: 100px;
+    width: 100px ;
+}
+#h3{
+    margin: 10px 75px;
+    font-size: 30px ;
+}
+ #box{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+ }
+ .div {
+    text-align: center;
+    color: white;
+}
+
+.button {
+    margin: 0px 15px;
+    padding: 5px;
+    border-radius: 12px;
+    background-color:rgb(10, 10, 8);
+    color: white;
+
+}
+.button:hover {
+    margin: 0px 15px;
+    padding: 5px;
+    border-radius: 12px;
+    background-color:rgb(160, 53, 67);
+    color: white;
+}
+
+.con {
+    margin: 70px auto ;
+    padding: 8px 20px;
+    width: 33%;
+    color: rgb(206, 193, 193);
+    border: 2px solid peru;
+    border-radius: 28px;
+}
+
+.con h1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.from {
+
+    text-align: center;
+    border-radius: 20px;
+    display: block;
+    padding: 5px;
+    margin: 3px auto;
+    width: 200px;
+    border: 2px solid whitesmoke;
+    
+}
+
+   
+h2{display: block;
+   width: 25%;
+    margin: 40px auto;
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    color: white;
+    
+    
+}
+#btn{
+    border: 2px solid rgb(199, 186, 68);
+    border-radius: 10px;
+font-size: 15px;
+}
+#btn:hover{
+    border: 2px solid grey;
+background-color: brown;
+    border-radius: 10px;
+font-size: 15px;
+color: hotpink;
+}
+#btn:visited{
+    border: 2px solid grey;
+background-color: yellow;
+    border-radius: 10px;
+font-size: 15px;
+color: hotpink;
+}
+</style>
+<body class="sara">
+    <div class="ra">
+    <nav class="nav">
+        <ul id="aa">
+            <li class="ram"><a href="#">Home</a> </li>
+            <li class="ram"><a href="#">Manu</a></li>
+            <li class="ram"> <a href="#">contact us</a></li>
+            <li class="ram"> <a href="#">About</a></li>
+       <div id="z">
+       
+       <button class="search" id="but">sumbit</button>  
+       <input type=" text box" name="search" class="search" placeholder="      Search">
+       </div>
+        </ul>
+    </nav></div>
+    <h2> welcome to Login Form</h2>
+    <div class="con">
+        <h1 id="h"> please fill this form</h1>
+        <div class="from">
+            <input id="name" type="text" placeholder="name" >
+        </div>
+        <div class="from">
+            <input id="email" type="email" placeholder="Email" >
+        </div>
+        <div class="from">
+            <input id="password" type="password" placeholder="password" >
+        </div>
+        <div class="from">
+            <button id="btn" onclick="getInfo()">sumbit</button>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="fashional.css">
+   <link rel="stylesheet" media=" screen and (max-width:800px)" href="fashphone.css">
+    <title>Document</title>
+    <script>
+       function getInfo(){
+var username = document.getElementById("name").value;
+var email = document.getElementById("email").value;
+var password = document.getElementById("password").value;
+console.log(" username is: " + username + " email is " +email+ " password is " +password)
+       
+}
+     </script>
+</head>
+
+<body>
+    <header>
+        <div class="left">
+            <img src="image/gg.png" alt="image error">
+        </div>
+        <div class="mid">
+            <ul class="ul">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">CONTACT</a></li>
+                <li><a href="#">ABOUT</a></li>
+            <li> <a href="#">VIEWS</a></li>
+            </ul>
+        </div>
+    </header>
+    <h2> welcome to my tea stole</h2>
+    <div class="con">
+        <h1 id="h"> please fill this form</h1>
+        <FORM action="SORAV.PHP"></FORM>
+        <div class="from">
+            <input id="name" type="text" placeholder="name" >
+        </div>
+        <div class="from">
+            <input id="email" type="email" placeholder="Email" >
+        </div>
+        <div class="from">
+            <input id="password" type="password" placeholder="password" >
+        </div>
+        <div class="from">
+            <button id="btn" onclick="getInfo()">sumbit</button>
+        </div>
+    </div>
+</body>
+</html> ​
+​

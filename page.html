@@ -1,0 +1,38 @@
+<html>
+<head>
+    <title>Jiwaji University</title>
+    <style>
+        #id1{
+            color: green;
+        }
+    </style>
+    <script>
+         function contentChange(){
+            document.getElementById("id1").innerHTML="MBA";
+        }
+        function contentChange1(){
+            document.getElementById("id1").innerHTML="MCA";
+            document.getElementById("para1").style.color="Red";
+        }
+
+        function getInput(){
+            var x = document.getElementById("num1").value;
+            // console.log(x);
+            document.getElementById("para2").innerHTML =  "The number you entered is : " + x;
+            document.getElementById('btn').innerHTML = x;
+        }
+    </script>
+</head>
+<body>
+    <p id="para1"> This is <span id="id1">MCA</span> from Jiwaji University</p>
+    
+
+
+    <button onclick="contentChange()">MBA</button>
+    <button onclick="contentChange1()">MCA</button>
+    <p id="para2"> </p>
+    <input id="num1" type="text" placeholder="Enter your number!"><br><br>
+    <button id="btn" onclick="getInput()"> Submit</button>
+
+</body>
+</html>
